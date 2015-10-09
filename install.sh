@@ -1,3 +1,7 @@
+# Disable bouncing on dock
+defaults write com.apple.dock no-bouncing -bool TRUE
+killall Dock
+
 ln -s ~/GitHubProjects/dotfiles/vimrc ~/.vimrc
 ln -s ~/GitHubProjects/dotfiles/zshrc ~/.zshrc
 
