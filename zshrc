@@ -53,9 +53,10 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:PATH"
+export PATH="/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export GOPATH="$HOME/GoLangProjects"
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
