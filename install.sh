@@ -22,4 +22,4 @@ mkdir ~/GoLangProjects
 
 # GoLang plugin for VIM
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
-echo "open vim and type :GoInstallBinaries and :Helptags ~/.vim/bundle/vim-go/doc"
+echo "open vim and type :GoInstallBinaries"

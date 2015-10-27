@@ -56,7 +56,10 @@ plugins=(git)
 export PATH="/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# GoLang variables
 export GOPATH="$HOME/GoLangProjects"
+export GOBIN="$GOPAHT/bin"
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
