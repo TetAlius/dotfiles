@@ -58,7 +58,7 @@ export PATH="/usr/local/git/bin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/
 
 # GoLang variables
 export GOPATH="$HOME/GoLangProjects"
-export GOBIN="$GOPAHT/bin"
+export GOBIN="$GOPATH/bin"
 
 source $ZSH/oh-my-zsh.sh
 
