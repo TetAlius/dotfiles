@@ -6,10 +6,10 @@ ln -s ~/GitHubProjects/dotfiles/vimrc ~/.vimrc
 ln -s ~/GitHubProjects/dotfiles/zshrc ~/.zshrc
 
 # Pathogen for VIM
-mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+#mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # NerdTree plugin for VIM
-git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
+#git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 
 # JellyBeans Theme for VIM
 mkdir -p ~/.vim/colors/
