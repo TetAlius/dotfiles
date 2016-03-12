@@ -21,5 +21,5 @@ rm -rf ~/GitHubProjects/jellybeans.vim
 mkdir ~/GoLangProjects
 
 # GoLang plugin for VIM
-git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
-echo "open vim and type :GoInstallBinaries"
+#git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+#echo "open vim and type :GoInstallBinaries"
