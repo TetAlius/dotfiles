@@ -2,8 +2,13 @@
 defaults write com.apple.dock no-bouncing -bool TRUE
 killall Dock
 
-ln -s ~/GitHubProjects/dotfiles/vimrc ~/.vimrc
-ln -s ~/GitHubProjects/dotfiles/zshrc ~/.zshrc
+# Install Oh My ZSH
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+chsh -s /bin/zsh
+
+ln -sF ~/GitHubProjects/dotfiles/vimrc ~/.vimrc
+ln -sF ~/GitHubProjects/dotfiles/zshrc ~/.zshrc
 
 # Pathogen for VIM
 #mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
