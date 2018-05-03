@@ -9,7 +9,7 @@ chsh -s /bin/zsh
 
 ln -sF ~/GitHubProjects/dotfiles/vimrc ~/.vimrc
 ln -sF ~/GitHubProjects/dotfiles/zshrc ~/.zshrc
-ln -sF ~/GitHubProjects/dotfiles/gitignore_global ~/.config/git/ignore
+ln -sF ~/GitHubProjects/dotfiles/gitignore ~/.config/git/ignore
 
 # Pathogen for VIM
 #mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
