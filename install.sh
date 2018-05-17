@@ -29,3 +29,10 @@ mkdir ~/GoLangProjects
 # GoLang plugin for VIM
 #git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 #echo "open vim and type :GoInstallBinaries"
+
+# Git configuration
+# https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+# Magenta and reverse for old lines
+git config --global color.diff.oldMoved "magenta bold reverse"
+# Cyan and reverse for new lines
+git config --global color.diff.newMoved "cyan bold reverse"
