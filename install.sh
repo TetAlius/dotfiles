@@ -38,8 +38,8 @@ git config --global color.diff.oldMoved "magenta bold reverse"
 git config --global color.diff.newMoved "cyan bold reverse"
 
 # Alias for diff with color-moved always
-git config --global alias.df 'diff --color-moved=plain'
+git config --global alias.df 'diff --color-moved'
 # Alias for show with color-moved always
-git config --global alias.sw 'show --color-moved=plain'
+git config --global alias.sw 'show --color-moved'
 # Alias for git graph with custom options
 git config --global alias.gh 'log --graph --pretty=oneline --abbrev-commit --decorate'
