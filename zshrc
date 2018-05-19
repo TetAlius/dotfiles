@@ -86,6 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias gdiff='git diff --color-moved=plain'
-alias gshow='git show --color-moved=plain'
-alias ggraph='git log --graph --pretty=oneline --abbrev-commit --decorate'
+# alias gdiff='git diff --color-moved=plain'
+# alias gshow='git show --color-moved=plain'
+# alias ggraph='git log --graph --pretty=oneline --abbrev-commit --decorate'

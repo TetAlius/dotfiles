@@ -36,6 +36,8 @@ mkdir ~/GoLangProjects
 git config --global color.diff.oldMoved "magenta bold reverse"
 # Cyan and reverse for new lines
 git config --global color.diff.newMoved "cyan bold reverse"
+# Yellow for incorrect whitespaces
+git config --global color.diff.whitespace 'yellow ul bold'
 
 # Alias for diff with color-moved always
 git config --global alias.df 'diff --color-moved'
